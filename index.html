@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2 class="headingH2">Number Guess</h2>
+        </div>
+        <div class="hints">
+            <p class="hintP">Enter the number to get a hint.</p>
+        </div>
+        <div class="inputs">
+           <div class="inputs1">
+            <input class="inputNumber" type="number" placeholder="Enter the number from 1-100" required>
+            <button class="check" onclick="check()">Check</button>
+            <button class='playAgain' onclick='playAgain()'>Play Again</button>   
+        </div>
+           </div>
+        <div class="chances">
+            <h3 class="chancesH3">You have 5 chances left.</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
